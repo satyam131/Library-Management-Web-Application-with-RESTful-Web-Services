@@ -6,6 +6,14 @@ PROJECT NAME :-
  The Library Management Web Application is a comprehensive Java web application developed using Spring MVC, JSP, Spring Boot, and Hibernate. 
  The application facilitates the management of books by librarians while maintaining the details of books and authors on a separate server that 
  exposes RESTful web services using Spring Boot.
+ 
+ -> Web application (Application 1) using Spring MVC and JSP for Library Management. A librarian can login to application and manage books.
+ -> However, the details of the books and authors are maintained on a separate server (Application 2) which exposes RESTful webservices using Spring Boot 
+    to support CRUD operations on books data.
+ A book must be associated with an author. Authors needs to be configured in Database (not to be added through UI). While adding a book, authors will be 
+ shown in the dropdown to choose from the list.
+ REST APIs for CRUD operations on Author has to be provided.
+
 
 Key Features:
 =============
